@@ -53,3 +53,57 @@ header{
     margin: 10px;
     font-size: 20px;
 }
+/* ===== end of header ===== */
+.donate-today{
+    height: 700px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: black;
+}
+.donate-today h2{
+    font-size: 60px;
+    text-transform: capitalize;
+    font-weight: 800;
+}
+.donate-today p{
+    padding: 10px;
+    font-size: 18px;
+}
+.donate-today a{
+    text-transform: capitalize;
+    background-color: rgb(255,89,89);
+    padding: 15px 20px;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+    margin: 10px;
+    font-size: 20px;
+}
+#donation-value{
+    width: 50%;
+    height: 50px;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid lightgray;
+    margin: 20px 0;
+    font-size: 30px;
+}
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+#donation-value:focus{
+outline: none;
+}
